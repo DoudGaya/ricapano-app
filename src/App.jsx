@@ -1,10 +1,11 @@
 import React from 'react'
+import Login from './Login'
 
 
-export default function Login () {
+export default function Home () {
   return ( 
-    <div className=" bg-slate-100">
-      some
+    <div className=" h-screen w-full bg-gray-100">
+      <Login />
     </div>
   )
 }
